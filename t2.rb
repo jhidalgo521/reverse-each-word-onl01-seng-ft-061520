@@ -7,14 +7,13 @@ require 'pry'
 s = "hello there, and how are you?"
 
 def rew(s)
-  s.split(\\)
+  s.split(",")
+  binding.pry
   new = []
   s.each{|w| w.reverse}
-  binding.pry
+  
   s
 end
 
 rew(s)
 
-#code didnt run .each cant be used on string. Can only be used on collections like hashes or arrays
-# solution could be to create an array out of the each word of the sentence
