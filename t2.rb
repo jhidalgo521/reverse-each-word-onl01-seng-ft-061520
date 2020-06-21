@@ -7,6 +7,7 @@ require 'pry'
 s = "hello there, and how are you?"
 
 def rew(s)
+  s.split(\\)
   new = []
   s.each{|w| w.reverse}
   binding.pry
