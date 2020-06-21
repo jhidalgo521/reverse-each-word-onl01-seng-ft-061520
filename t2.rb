@@ -16,4 +16,4 @@ end
 
 rew(s)
 
-#join wont work like this because its specific to enumerables. it wont work inside the block of another enumerable like .each
+#join wont work like this because its specific to enumerables. it wont work inside the block of another enumerator like .each
