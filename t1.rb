@@ -8,7 +8,6 @@ s = "hello there, and how are you?"
 
 def rew(s)
   s.each{|w| w.reverse}
-  end
   binding.pry
   s
 end
