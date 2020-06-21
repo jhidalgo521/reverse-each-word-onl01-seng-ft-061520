@@ -8,12 +8,11 @@ s = "hello there, and how are you?"
 
 def rew(s)
   new = s.split(",")
+  new.each{|w| w.reverse}
   binding.pry
-  new.each{|w| w.join(" ").reverse}
   new
   binding.pry
 end
 
 rew(s)
 
-#join wont work like this because its specific to enumerables. it wont work inside the block of another enumerator like .each
