@@ -8,11 +8,9 @@ s = "hello there, and how are you?"
 
 def rew(s)
   s.split(",")
-  binding.pry
-  new = []
-  s.each{|w| w.reverse}
-  
+  s.each{|w| w.join(" ").reverse}
   s
+  binding.pry
 end
 
 rew(s)
