@@ -11,3 +11,5 @@ def rew(s)
   binding.pry
   s
 end
+
+rew(s)
