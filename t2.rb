@@ -7,9 +7,9 @@ require 'pry'
 s = "hello there, and how are you?"
 
 def rew(s)
-  s.split(",")
-  s.each{|w| w.join(" ").reverse}
-  s
+  new = s.split(",")
+  new.each{|w| w.join(" ").reverse}
+  new
   binding.pry
 end
 
