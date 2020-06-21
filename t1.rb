@@ -13,3 +13,6 @@ def rew(s)
 end
 
 rew(s)
+
+#code didnt run .each cant be used on string. Can only be used on collections like hashes or arrays
+# solution could be to create an array out of the each word of the sentence
